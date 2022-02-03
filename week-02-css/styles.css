@@ -1,15 +1,31 @@
 /* Element selector that gives every p element a monospace font. */
+a {
+  font-family: unset;
+  font-size: 30px;
+  text-align: center;
+}
 p {
-  font-family: monospace;
+  font-family: fantasy;
+  text-align: center;
 }
-
+body {  
+  background-color: lightblue;
+}
 /* Class selector that gives elements with this class a big bold style. */
-.big {
-  font-size: large;
-  font-weight: bold;
+.highlighted {
+   border: thick dotted grey;
 }
-
-/* ID selector that gives the element with this ID a red style. */
-#boldly {
+.light {
+  background-color: tan;
+  font-style: italic;
   color: red;
+}
+/* ID selector that gives the element with this ID a red style. */
+#first {
+  font-weight: bold;
+  color: green;
+}
+#second {
+  text-align: center;
+  background-color: rgb(133, 203, 133);
 }
