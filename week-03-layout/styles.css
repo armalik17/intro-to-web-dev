@@ -4,9 +4,63 @@ nav {
 
 div {
   border: thin solid black;
-  margin: 25px 0;
+  margin: 20px 0;
+  padding: 5px;
 }
-
 footer {
   border: thin solid black;
 }
+.container {
+  display: flex; 
+  flex-direction: column;
+  gap: 10px; 
+}
+.middle {
+  display: flex;
+  gap: 10px;
+}
+.content {
+  flex-grow: 1; 
+}
+.yellow {
+background-color: lemonchiffon;
+}
+.fantasy{
+  font-family: fantasy;
+}
+.center {
+  text-align: center;
+  background-color: teal;
+}
+.backcolor {
+  background-color:teal;
+}
+.bold{
+  text-emphasis: size; bold;
+}
+.sticky {
+  position:fixed;
+  top: 0;
+  background: darksalmon;
+  width: 100%;
+  }
+
+.image-grid {
+  grid-column: auto;
+  grid-auto-columns: 10%;
+  display: inline-block;
+  max-width: 100%;
+}
+
+.image-grid > img {
+  max-width: 33%;
+}
+
+#smallBig {
+  width: 30%;
+  height: 358.233px;
+}
+
+@media screen and (min-width: 700px) {
+  .content {
+    background: darksalmon; 
