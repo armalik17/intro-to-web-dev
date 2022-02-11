@@ -51,7 +51,9 @@ background-color: lemonchiffon;
   display: inline-block;
   max-width: 100%;
 }
-
+.grid {
+  display: grid;
+}
 .image-grid > img {
   max-width: 33%;
 }
