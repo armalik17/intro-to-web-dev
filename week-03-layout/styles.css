@@ -53,6 +53,7 @@ background-color: lemonchiffon;
 }
 .grid {
   display: grid;
+  text-align: center;
 }
 .image-grid > img {
   max-width: 33%;
