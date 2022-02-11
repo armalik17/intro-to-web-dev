@@ -58,7 +58,7 @@ background-color: lemonchiffon;
 
 #smallBig {
   width: 30%;
-  height: 358.233px;
+  height: auto;
 }
 
 @media screen and (min-width: 700px) {
