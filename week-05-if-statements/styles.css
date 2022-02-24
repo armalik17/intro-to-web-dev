@@ -1,7 +1,40 @@
+
+#done {
+  display: none;
+}
+
+#question-one {
+  diplay: block;
+}
+
 #question-two {
   display: none;
 }
 
-#done {
+#question-three {
   display: none;
+}
+
+#question-four {
+  display: none;
+}
+
+#question-five {
+  display: none;
+}
+
+#background{
+  background-color: cadetblue;
+  text-align: center;
+  font-family: fantasy;
+}
+
+div {
+  border: thin solid black;
+  margin: 20px 0;
+  padding: 5px;
+}
+
+.backcolor {
+  background-color:black;
 }
