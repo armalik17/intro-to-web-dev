@@ -10,14 +10,12 @@ function setup() {
     circleY[i] = random(height);
   
   myCircle = new Circle(150, 150, 3, 5);
- 
   }
 }
 
 function draw() {
   background(100,165,70);
 
-  
 //Text// 
   textSize(35);  
   text(message , 80, textY);
@@ -26,7 +24,6 @@ function draw() {
     if (textY > height || textY < 0 ) {
       ySpeed *= -1;
     }
-
   
 // 50 Small Tennis Balls // 
 for (let i = 0; i < circleY.length; i++) {

@@ -1,23 +1,29 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Task List</title>
+<body class="backcolor">
+    <title>Reading List</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <script src="script.js"></script>
   </head>
   <body onload="loadContent();">
-    <h1>Task List</h1>
+    <h1>Reading List</h1>
     <div id="table-container"></div>
     <hr>
-    <p>Shortest task: <span id="shortest-task"></span></p>
+    <p>Shortest Book: <span id="shortest-book"></span></p>
     <hr>
     <div>
-      <h1>New Task</h1>
-      Label: <input type="text" id="label-input"/>
+      <h1>New Book</h1>
+      Title: <input type="text" id="title-input"/>
       <br><br>
-      Time: <input type="number" id="time-input" />
+      Pages: <input type="number" id="pages-input" />
       <br><br>
-      <button onclick="addNewTask();">Add</button>
+      Author: <input type="text" id="author-input" />
+      <br><br>
+      <button onclick="addNewBook();">Add</button>
     </div>
+    <h3>Average Pages per Book</h3>
+    <div id="average-pages"></div>
+    
   </body>
 </html>
