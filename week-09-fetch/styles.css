@@ -6,3 +6,26 @@
 #images img {
   width: 100px;
 }
+
+body {  
+  background-color: lightblue;
+}
+
+
+#links {
+  font-weight: bold;
+  font-family: Apple Chancery;
+}
+
+h1 {
+  border: thin solid black;
+  text-align: center;
+  font-weight: bold;
+}
+
+.sticky {
+  position:fixed;
+  top: 0;
+  background: darksalmon;
+  width: 100%;
+  }
