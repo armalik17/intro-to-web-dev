@@ -1,0 +1,32 @@
+
+.yellow {
+background-color: yellowgreen;
+}
+
+.backcolor {
+  background-color:green;
+}
+
+h1 {
+font-family: sans-serif;
+color: Black;
+font-weight: bold;
+align-content: center;
+}
+
+
+h2 { 
+font-family:sans-serif;
+color: Black;
+}
+
+div {
+  font-family: sans-serif;
+  color: black;
+}
+.center {
+  text-align:center;
+}
+.blue {
+  color: blue;
+}
